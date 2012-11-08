@@ -100,12 +100,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pochta.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Pochta.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Pochta_Rossii.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
