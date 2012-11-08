@@ -1,0 +1,71 @@
+﻿<Window x:Class="RussianPostTracking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"
+        FontSize="18"
+        Height="768"
+        Width="1024"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="66" />
+            <RowDefinition Height="504*" />
+            <RowDefinition Height="81*" />
+            <RowDefinition Height="28" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="166" />
+            <ColumnDefinition Width="836*" />
+        </Grid.ColumnDefinitions>
+        <WebBrowser Name="webBrowser1"
+                    Width="0"
+                    Height="0"
+                    LoadCompleted="webBrowser1_LoadCompleted"
+                    Grid.Column="1"
+                    Margin="420,24,420,58"
+                    Grid.Row="1" />
+        <TabControl Name="tabControl1"
+                    Grid.Column="1"
+                    Grid.RowSpan="4"></TabControl>
+        <ListBox Name="LBIdentifier"
+                 Grid.Row="2" />
+        <TextBox Name="TB_NewInd"
+                 Margin="7,12,12,6" />
+        <Label HorizontalAlignment="Left"
+               Name="label1"
+               VerticalAlignment="Top">
+
+        </Label>
+        <Button Grid.Row="3"
+                Name="button1"
+                Click="button1_Click">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Удалить" />
+                <TextBlock Text="выделенный" />
+                <TextBlock Text="идентификатор" />
+            </StackPanel>
+        </Button>
+        <Button Content="Получить данные"
+                Grid.Row="4"
+                Name="button2"
+                Click="button2_Click" />
+        <Label Content="Готово"
+               Grid.Column="1"
+               Grid.Row="4"
+               Height="28"
+               HorizontalAlignment="Left"
+               Margin="5,0,0,0"
+               Name="Status"
+               FontSize="16"
+               VerticalAlignment="Top" />
+        <Button Name="button3"
+                Grid.Row="1"
+                Click="button3_Click">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Добавить новый" />
+                <TextBlock Text="идентификатор" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
