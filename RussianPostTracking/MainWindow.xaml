@@ -53,9 +53,8 @@
         <Label Content="Готово"
                Grid.Column="1"
                Grid.Row="4"
-               Height="28"
                HorizontalAlignment="Left"
-               Margin="5,0,0,0"
+               Margin="4,-3,0,0"
                Name="Status"
                FontSize="16"
                VerticalAlignment="Top" />

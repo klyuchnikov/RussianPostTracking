@@ -7,12 +7,12 @@ using System.Windows;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("RussianPostTracking")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Отслеживание почтовых отправлений")]
+[assembly: AssemblyDescription("Отслеживание почтовых отправлений Почта России")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RussianPostTracking")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyCompany("Дмитрий Ключников")]
+[assembly: AssemblyProduct("Отслеживание почтовых отправлений")]
+[assembly: AssemblyCopyright("Дмитрий Ключников©")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

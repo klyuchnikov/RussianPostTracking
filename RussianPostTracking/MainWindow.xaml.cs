@@ -178,6 +178,7 @@ namespace RussianPostTracking
             LBIdentifier.ItemsSource = null;
             LBIdentifier.ItemsSource = Model.Current.Listidentifier;
             LBIdentifier.UpdateLayout();
+            TB_NewInd.Text = "";
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -191,6 +192,7 @@ namespace RussianPostTracking
             LBIdentifier.ItemsSource = null;
             LBIdentifier.ItemsSource = Model.Current.Listidentifier;
             LBIdentifier.UpdateLayout();
+            LBIdentifier.SelectedIndex = 0;
         }
     }
 }
